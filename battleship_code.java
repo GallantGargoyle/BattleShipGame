@@ -23,7 +23,7 @@ public class Battleship {
         //Getting user input for the battleships
         Scanner coordinates = new Scanner(System.in);
         for (int playerCount = 1; playerCount<=2; playerCount++) {
-            System.out.println("PLAYER " + playerCount + " ENTER YOUR SHIPS' COORDINATES (Row first, then column, separated by a space: \nFor example, 1 1\n");
+            System.out.println("PLAYER " + playerCount + " ENTER YOUR SHIPS' COORDINATES (Row first, then column, separated by a space) \nFor example, 1 1\n");
 
             //Takes five battleship coordinates as input
             for (int shipCount = 1; shipCount<=5; shipCount++) {
